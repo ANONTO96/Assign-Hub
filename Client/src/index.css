@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Light Theme */
+:root {
+    --background: #f9fafb;
+    --text-primary: #1f2937;
+    --text-secondary: #4b5563;
+    --card-bg: #ffffff;
+    --border-color: #e5e7eb;
+    --button-bg: #84cc16;
+    --button-text: #ffffff;
+  }
+  
+  /* Dark Theme */
+  [data-theme='dark'] {
+    --background: #1f2937;
+    --text-primary: #f3f4f6;
+    --text-secondary: #d1d5db;
+    --card-bg: #374151;
+    --border-color: #4b5563;
+    --button-bg: #65a30d;
+    --button-text: #ffffff;
+  }
+  
+  /*  marquee*/
+  .marquee-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 130px;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    color: #444;
+    text-transform: uppercase;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+  
