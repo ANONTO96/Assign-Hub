@@ -13,6 +13,9 @@ const AssignmentCard = ({ assignment }) => {
         description,
         } = assignment || {};
 
+        // Check if dueDate is valid
+    const isValidDate = !isNaN(new Date(dueDate));
+
     return (
         <Link
       to={`/assignment/${_id}`}
@@ -25,7 +28,7 @@ const AssignmentCard = ({ assignment }) => {
       <div className='flex items-center justify-between'>
         <span className='text-xs font-light text-gray-800 '>
           <span className='text-black'>Due Date:</span>
-          {format (new Date(dueDate),'PP')}
+          {isValidDate ? format(new Date(dueDate), 'PP') : 'Invalid Date'}
         </span>
         <span className='px-3 py-1 text-[8px] text-blue-800 uppercase bg-blue-200 rounded-full '>
           {difficulty}
