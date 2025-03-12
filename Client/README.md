@@ -17,7 +17,7 @@
 - **Assignment Management**: Helps users create, manage, and track their assignments with ease.
 - **Toast Notifications**: Provides real-time notifications to users using react-hot-toast for better interactivity.
 - **Fast Development Builds**: Built with Vite for rapid development and optimized production builds.
-- **Offline Storage**: Uses LocalForage for storing data offline, providing a more robust solution than localStorage.
+- **Offline Storage**: Uses Localstorage for storing data offline, providing a more robust solution than localStorage.
 - **Client-side Routing**: Integrated with React Router for seamless page navigation.
 - **Secure Authentication**: Firebase is used for secure user authentication and managing user data.
 
@@ -30,7 +30,7 @@
 - **ESLint**: Ensures consistent code quality through linting.
 - **Firebase**: Backend services for authentication and database management.
 - **React Router**: Used for navigation and routing between different pages in the application.
-- **LocalForage**: Provides an advanced solution for offline data storage.
+- **Localstorage**: Provides an advanced solution for offline data storage.
 - **React Hot Toast**: Adds toast notifications to the app for instant user feedback.
 
 ---
